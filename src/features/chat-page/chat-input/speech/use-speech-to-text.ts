@@ -35,10 +35,7 @@ class SpeechToText {
 
     const autoDetectSourceLanguageConfig =
       AutoDetectSourceLanguageConfig.fromLanguages([
-        "en-US",
         "ro-RO",
-        "it-IT",
-        "pt-BR",
       ]);
 
     const recognizer = SpeechRecognizer.FromConfig(
